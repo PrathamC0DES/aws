@@ -1,11 +1,11 @@
 {
-  "lastCommit": "2026-08-15T21:02:19",
-  "buildNumber": 1794907767,
-  "hash": "yikk6ks8",
+  "lastCommit": "2026-08-16T12:01:17",
+  "buildNumber": 1794907769,
+  "hash": "wyzjh04j",
   "activity": {
-    "timestamp": "2026-08-15T21:02:19",
-    "message": "fix(session): ensure cursor resets properly after modal closes",
-    "index": 6,
-    "totalForDay": 6
+    "timestamp": "2026-08-16T12:01:17",
+    "message": "fix: prevent duplicate event listeners on remount",
+    "index": 1,
+    "totalForDay": 2
   }
 }
