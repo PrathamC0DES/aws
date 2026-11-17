@@ -1,0 +1,21 @@
+{
+  "service": "aws-cloud-telemetry",
+  "version": "1.4.2",
+  "environment": "production",
+  "region": "us-east-1",
+  "telemetry": {
+    "enabled": true,
+    "metricsSync": true,
+    "logRetentionDays": 30
+  },
+  "deployment": {
+    "autoScale": true,
+    "healthCheckPath": "/health",
+    "timeoutMs": 5000
+  },
+  "runtime": {
+    "engine": "node-20.x",
+    "lastSync": "2026-11-17T09:30:00Z",
+    "stateHash": "9b12f4ac"
+  }
+}
